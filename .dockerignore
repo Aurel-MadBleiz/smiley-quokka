@@ -1,0 +1,5 @@
+.git
+.gitignore
+.dockerignore
+.ipynp_checkpoints
+__cache__

@@ -1,0 +1,145 @@
+{
+    "national_export": {
+        "path":"./tmp/National_2022_Export.txt",
+        "parameters": {
+            "names": [
+                "flux",
+                "mois",
+                "annee",
+                "code_cpf6",
+                "code_a129",
+                "code_nc8",
+                "code_pays",
+                "valeur",
+                "massee",
+                "usup"
+            ],
+            "dtype": {
+                "flux": "str", 
+                "mois": "int", 
+                "annee": "int", 
+                "code_cpf6": "str", 
+                "code_a129": "str", 
+                "code_nc8": "str", 
+                "code_pays": "str", 
+                "valeur": "float", 
+                "masse": "float", 
+                "usup": "float"
+            },
+            "sep": ";",
+            "encoding": "utf-8"
+        }
+    },
+    "national_import": {
+        "path":"./tmp/National_2022_Import.txt",
+        "parameters": {
+            "names": [
+                "flux",
+                "mois",
+                "annee",
+                "code_cpf6",
+                "code_a129",
+                "code_nc8",
+                "code_pays",
+                "valeur",
+                "masse",
+                "usup"
+            ],
+            "dtype": {
+                "flux": "str", 
+                "mois": "int", 
+                "annee": "int", 
+                "code_cpf6": "str", 
+                "code_a129": "str", 
+                "code_nc8": "str", 
+                "code_pays": "str", 
+                "valeur": "float", 
+                "masse": "float", 
+                "usup": "float"
+            },
+            "sep": ";",
+            "encoding": "utf-8"
+        }
+    },
+    "cpf6": {
+        "path":"./tmp/Libelle_CPF6_rev2.1.txt",
+        "parameters": {
+            "names": [
+                "code_cpf6", 
+                "libelle", 
+                "debut", 
+                "fin"
+            ],
+            "dtype": {
+                "code_cpf6": "str", 
+                "libelle": "str", 
+                "debut": "str", 
+                "fin": "str"
+            },
+            "sep": ";",
+            "encoding": "windows-1252"
+        }
+    },
+    "nc8": {
+        "path":"./tmp/Libelle_NC8_2022.txt",
+        "parameters": {
+            "names": [
+                "code_nc8", 
+                "libelle", 
+                "bool_usup", 
+                "usup", 
+                "debut", 
+                "fin"
+            ],
+            "dtype": {
+                "code_nc8": "str", 
+                "libelle": "str", 
+                "bool_usup": "float", 
+                "usup": "str", 
+                "debut": "str", 
+                "fin": "str"
+            },
+            "skiprows": 1,
+            "sep": "\t",
+            "encoding": "windows-1252"
+        }
+    }, 
+    "a129": {
+        "path":"./tmp/Libelle_A129.txt",
+        "parameters": {
+            "names": [
+                "code_a129", 
+                "libelle", 
+                "debut", 
+                "fin"
+            ],
+            "dtype": {
+                "code_a129": "str", 
+                "libelle": "str", 
+                "debut": "str", 
+                "fin": "str"
+            },
+            "sep": ";",
+            "encoding": "utf-8"
+        }
+    }, 
+    "pays": {
+        "path":"./tmp/Libelle_PAYS.txt",
+        "parameters": {
+            "names": [
+                "code_pays", 
+                "libelle", 
+                "debut", 
+                "fin"
+            ],
+            "dtype": {
+                "code_pays": "str", 
+                "libelle": "str", 
+                "debut": "str", 
+                "fin": "str"
+            },
+            "sep": ";",
+            "encoding": "utf-8"
+        }
+    }
+}

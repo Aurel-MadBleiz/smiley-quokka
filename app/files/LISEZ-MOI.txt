@@ -1,0 +1,112 @@
+﻿Voici la liste des fichiers associés à chacun des jeux de données concernant le chiffre du commerce extérieur.
+
+
+Statistiques Nationales du Commerce Extérieur - (Import ou Export)
+==================================================================
+
+National_[millésime]_Import.txt : Jeu de données statistiques nationales à l'import pour le millésime concerné.
+National_[millésime]_Export.txt : Jeu de données statistiques nationales à l'export pour le millésime concerné.
+
+[millésime] : : année de données (2015, 2016, 2017, ...)
+Description-des-jeux-de-donnees-annuels.pdf : Fiche descriptive permettant d'interpréter les jeux de données annuels des Statistiques Nationales du Commerce Extérieur - Import et Export.
+
+
+Libelle_NC8_[millésime].txt
+---------------------------
+
+[millésime] : : année de données
+Ce fichier liste les associations entre un code NC8 et son libellé pour l'année de données concernée. 
+
+Format de fichier: UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé;Présence d'unité supplémentaire 1 USUP présente - 0 Pas d'USUSP;Nature de l'USUP; Date de début de validité; Date de fin de validité
+Exemple : 01012100;Chevaux reproducteurs de race pure;1;Nombre de pièces;2012;9999
+
+La date 9999 indique que l'association a cours au moment où le fichier est mis en ligne. 
+
+Libelle_CPF6_rev2.1.txt
+-----------------------
+
+Ce fichier liste les associations entre un code CPF6 et son libellé et la date de validité de cette association. 
+Cette nomenclature est gérée par l'INSEE.
+La version utilisée à partir de l'année 2015 est la révision 2.1 de la CPF
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : 011111;Blé dur;201501;999912
+La date 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe. 
+
+
+Libelle_A129.txt
+-----------------------
+
+Ce fichier liste les associations entre un code A129 de la nomenclature agrégégée (NA, 2008) et son libellé et la date de validité de cette association. 
+Cette nomenclature agrégée (NA, 2008) est nécessaire pour répondre aux besoins de la production de données de synthèse pour l'analyse économique et la diffusion.
+Elle est gérée par l'INSEE. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : A01Z;Produits de la culture et de l’élevage;200901;999912
+La date 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe. 
+
+
+Libelle_PAYS.txt
+----------------
+
+Ce fichier liste les associations entre un code pays et son libellé et la date de validité de cette association. 
+Cette nomenclature est extraite du règlement CE 1833/2006. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : AL;Albanie;197601;999912 
+Une date de 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe.
+
+
+
+Statistiques Régionales et Départementales du Commerce Extérieur - (Import ou Export)
+=====================================================================================
+
+Region_[millésime]_export.txt : Jeu de données statistiques régionales et départementales à l'export pour le millésime concerné.
+Region_[millésime]_import.txt : Jeu de données statistiques régionales et départementales à l'import pour le millésime concerné.
+
+Description-des-jeux-de-donnees-annuels.pdf : Fiche descriptive permettant d'interpréter les jeux de données annuels des Statistiques Régionales et Départementales du Commerce Extérieur - Import et Export.
+
+
+Libelle_CPF4_rev2.1.txt
+-----------------------
+
+Ce fichier liste les associations entre un code CPF4 et son libellé et la date de validité de cette association. 
+Cette nomenclature est gérée par l'INSEE.
+La version utilisée pour les années 2015 et après est la révision 2.1 de la CPF
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : 0111;Céréales (à l'exclusion du riz), légumineuses et oléagineux;201501;999912
+La date 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe. 
+
+Departement_region.txt
+----------------------
+
+Ce fichier liste les associations entre un code département, son libellé, le code région d'appartenance et son libellé.
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code Département;Libellé Département; Code région; Libellé région; Date de début de validité; Date de fin de validité
+Exemple : 02;Aisne;01;Hauts-de-France
+
+Remarque: il remplace l'ancien fichier DEPARTEMENT.txt.
+
+Libelle_A129.txt
+-----------------------
+
+Ce fichier liste les associations entre un code A129 de la nomenclature agrégégée (NA, 2008) et son libellé et la date de validité de cette association. 
+Cette nomenclature agrégée (NA, 2008) est nécessaire pour répondre aux besoins de la production de données de synthèse pour l'analyse économique et la diffusion.
+Elle est gérée par l'INSEE. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : A01Z;Produits de la culture et de l’élevage;200901;999912
+La date 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe. 
+
+
+Libelle_PAYS.txt
+----------------
+
+Ce fichier liste les associations entre un code pays et son libellé et la date de validité de cette association. 
+Cette nomenclature est extraite du règlement CE 1833/2006. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : AL;Albanie;197601;999912 
+Une date de 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe.
